@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="语文:"
+                    />
+                <EditText
+                    android:id="@+id/etChinese"
+                    android:maxLength="3"
+                    android:gravity="left"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+
+    <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="数学:"
+                    />
+                <EditText
+                    android:id="@+id/etMath"
+                    android:maxLength="3"
+                    android:gravity="left"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+
+    <LinearLayout
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="英语:"
+                    />
+                <EditText
+                    android:id="@+id/etEnglish"
+                    android:maxLength="3"
+                    android:gravity="left"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="平均分"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="我的平均分"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
